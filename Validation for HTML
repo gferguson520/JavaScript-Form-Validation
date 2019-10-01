@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Customer Information Deliverable</title>
+<link rel="CSS_stylesheet_customer_info" href="styles.css">
+</head>
+<body>
+<h1 style="color:aqua;">Customer Information</h1>
+
+<p>Please put in your information:</p>
+
+
+<form action="/action_page.php" method="post">
+ Enter your Firstname:
+  <input type="text" name="Firstname" required>
+  <br><br>
+  </form>
+</form>
+  <form action="/action_page.php" method="post">
+  Enter your Lastname:
+  <input type="text" name="Lastname" required>
+  <br><br>
+  </form>
+ 
+</form>
+  <form action="/action_page.php" method="post">
+  Enter your Email:
+  <input type="text" name="Email" required>
+  <br><br>
+  </form>
+<button type="button" onclick="alert('Thank you for your time!')">Submit</button>
+</body>
+</html>
